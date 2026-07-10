@@ -1,0 +1,6 @@
+{
+  "name": "CRAFT+ Boutique",
+  "description": "Tienda en línea de productos importados exclusivos y edición limitada para el público femenino de Ecuador, principalmente Quito.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

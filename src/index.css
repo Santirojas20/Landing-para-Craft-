@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cream: #F9F7F2;
+  --color-brand-dark: #1A1A1A;
+  --color-brand-beige: #EAE7E0;
+  --color-brand-light-beige: #F1EFEA;
+  --color-brand-accent: #C4B7A6;
+  
+  --font-serif: "Playfair Display", "Didot", "Georgia", serif;
+  --font-sans: "Inter", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #F9F7F2;
+  color: #1A1A1A;
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+}
+
+/* Custom Editorial Styling Classes */
+.editorial-border {
+  border-color: rgba(26, 26, 26, 0.1);
+}
+
+.editorial-button-solid {
+  background-color: #1A1A1A;
+  color: #F9F7F2;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.editorial-button-solid:hover {
+  background-color: #333333;
+}
+
+.editorial-button-outline {
+  border: 1px solid #1A1A1A;
+  color: #1A1A1A;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.editorial-button-outline:hover {
+  background-color: #1A1A1A;
+  color: #F9F7F2;
+}
+
+.editorial-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(26, 26, 26, 0.08);
+  border-radius: 0px;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-card:hover {
+  border-color: rgba(26, 26, 26, 0.25);
+  box-shadow: 0 12px 24px -10px rgba(26, 26, 26, 0.06);
+}
